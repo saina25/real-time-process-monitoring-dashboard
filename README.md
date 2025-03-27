@@ -1,8 +1,7 @@
 # **Real-Time Process Monitoring Dashboard**  
 
-Welcome to the Real-Time Process Monitoring Dashboard! This project provides an intuitive desktop application to monitor system performance by tracking CPU and memory usage, listing top processes, and enabling process termination using Python and Tkinter.
+Welcome to the Real-Time Process Monitoring Dashboard! This project provides an intuitive desktop application to monitor system performance by tracking CPU and memory usage, listing top processes, detecting deadlocks, and enabling process termination using Python and Tkinter.
 
-Table of Contents
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -16,7 +15,7 @@ Table of Contents
 ----
 ## Introduction
 
-Real-time monitoring of system resources is essential for ensuring optimal system performance and managing processes efficiently. This project leverages Python, Tkinter and psutil to create a GUI-based application that displays CPU and memory usage, lists top processes, and provides the ability to terminate processes.
+Real-time monitoring of system resources is essential for ensuring optimal system performance and managing processes efficiently. This project leverages Python, Tkinter, and Psutil to create a GUI-based application that displays CPU and memory usage, lists top processes, detects deadlocks, and provides the ability to terminate processes.
 
 ---
 ## Features
@@ -25,6 +24,8 @@ Real-time monitoring of system resources is essential for ensuring optimal syste
 - **Displays Top 10 CPU-consuming Processes**  
 - **Kill Selected Processes with One Click**  
 - **Simple & User-Friendly Interface**
+- **Deadlock Detection & Recovery**
+- **Graphical Representation of System Performance**
 ---
 ## Technologies Used
 
@@ -32,6 +33,8 @@ Real-time monitoring of system resources is essential for ensuring optimal syste
 - Tkinter (for GUI)
 - Psutil (for system information)
 - Replit (Execution)
+- NetworkX (for deadlock detection)
+- Matplotlib (for graphical performance tracking)
 ---
 ## Setup Instructions
 1. Clone the repository: `git clone https://github.com/your-username/process-monitor.git
@@ -49,7 +52,9 @@ Real-time monitoring of system resources is essential for ensuring optimal syste
 - Launch the application using python main.py.
 - Monitor CPU and memory usage dynamically.
 - View the top processes by CPU usage.
+- Visualize system performance through real-time graphs.
 - Select a process from the list and click "Kill Process" to terminate it.
+- Use the "Check Deadlocks" button to detect deadlocks and resolve them automatically.
 
 ---
 ## Dashboard Preview
@@ -57,6 +62,8 @@ The application interface includes:
 - CPU and memory usage progress bars.
 - A list displaying the top processes by CPU usage.
 - A button to terminate selected processes.
+- A deadlock detection and resolution feature.
+- Graphical charts showing real-time CPU and memory trends.
 
 ![Screenshot of the Real-time Dashboard](/images/system_performance.png")
 
@@ -71,11 +78,16 @@ The application interface includes:
 - The application updates CPU and memory usage every **2 seconds**.  
 - The **top 10 processes** consuming the most CPU are displayed.  
 - To **terminate a process**, select it from the list and click **"Kill Process"**.
+- Integrate Deadlock Detection using NetworkX.
+- Click "Check Deadlocks" to scan and resolve circular process dependencies.
+  
 ---  
 ## Future Enhancements
 - Add sorting and filtering options for the process list.  
 - Improve error handling for permission-restricted processes.  
-- Implement a confirmation prompt before killing processes.  
+- Implement a confirmation prompt before killing processes.
+- Enhance AI-powered analysis to predict potential system slowdowns.
+- Provide graphical insights for process history tracking
 
 ---
 ## Acknowledgments
