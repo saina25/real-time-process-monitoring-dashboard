@@ -65,7 +65,9 @@ The application interface includes:
 - A deadlock detection and resolution feature.
 - Graphical charts showing real-time CPU and memory trends.
 
-![Screenshot of the Real-time Dashboard](/images/system_performance.png")
+---
+## Screenshot
+![Screenshot (324)](https://github.com/user-attachments/assets/2686427a-a19f-485f-9130-9baf7f18b4ff)
 
 
 ---
