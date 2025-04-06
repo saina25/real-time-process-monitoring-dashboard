@@ -1,6 +1,6 @@
 # **Real-Time Process Monitoring Dashboard**  
 
-Welcome to the Real-Time Process Monitoring Dashboard! This project provides an intuitive desktop application to monitor system performance by tracking CPU and memory usage, listing top processes, detecting deadlocks, and enabling process termination using Python and Tkinter.
+Welcome to the Real-Time Process Monitoring Dashboard! This project provides an intuitive desktop application to monitor system performance by tracking CPU and memory usage, listing top processes, detecting deadlocks, enabling process termination using Python and Tkinter and graphical representation of system performance.
 
 ## Table of Contents
 - [Introduction](#introduction)
