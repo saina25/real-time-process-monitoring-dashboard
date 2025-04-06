@@ -29,12 +29,13 @@ Real-time monitoring of system resources is essential for ensuring optimal syste
 ---
 ## Technologies Used
 
-- Python
-- Tkinter (for GUI)
-- Psutil (for system information)
-- Replit (Execution)
-- NetworkX (for deadlock detection)
-- Matplotlib (for graphical performance tracking)
+- ![Python](https://img.shields.io/badge/Python-3.10-blue)
+- ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
+- ![Psutil](https://img.shields.io/badge/Monitoring-Psutil-orange)
+- ![Replit](https://img.shields.io/badge/Execution-Replit-blueviolet)
+- ![NetworkX](https://img.shields.io/badge/Deadlock%20Detection-NetworkX-purple)
+- ![Matplotlib](https://img.shields.io/badge/Charts-Matplotlib-yellow)
+
 ---
 ## Setup Instructions
 1. Clone the repository: `git clone https://github.com/your-username/process-monitor.git
