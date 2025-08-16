@@ -38,10 +38,10 @@ Real-time monitoring of system resources is essential for ensuring optimal syste
 
 ---
 ## Setup Instructions
-1. Clone the repository: `git clone https://github.com/your-username/process-monitor.git
+1. Clone the repository: `git clone https://github.com/saina25/real-time-process-monitoring-dashboard.git
 `
 2. Navigate to the project folder:
-`cd process-monitor
+`cd real-time-process-monitoring-dashboard
 `
 3. Install required dependencies: `pip install -r requirements.txt
 `
@@ -101,6 +101,3 @@ The application interface includes:
 <a href="https://www.linkedin.com/in/anushikagupta/" target="_blank">Anushika Gupta</a><br>
 <a href="https://www.linkedin.com/in/tanya-suratkal/" target="_blank">Tanya Suratkal</a><br>
 <a href="http://www.linkedin.com/in/saina25" target="_blank">Saina Roy</a><br>
-
----
-
