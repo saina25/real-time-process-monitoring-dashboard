@@ -37,17 +37,6 @@ Real-time monitoring of system resources is essential for ensuring optimal syste
 - ![Matplotlib](https://img.shields.io/badge/Charts-Matplotlib-yellow)
 
 ---
-## Setup Instructions
-1. Clone the repository: `git clone https://github.com/saina25/real-time-process-monitoring-dashboard.git
-`
-2. Navigate to the project folder:
-`cd real-time-process-monitoring-dashboard
-`
-3. Install required dependencies: `pip install -r requirements.txt
-`
-4. Run the application: `python main.py
-`
----
 ## Usage
 - Ensure you have **Python 3.x** installed along with the required dependencies: `pip install psutil`
 - Launch the application using python main.py.
